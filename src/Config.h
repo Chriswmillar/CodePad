@@ -1,5 +1,5 @@
 /*
-	Configuration variables for the whole program
+	 Configuration variables for the whole program
 
 	:Author: Evan Gillespie
 */
