@@ -12,10 +12,10 @@
 
 
 // For the random times between when chatacters are displayed
-// #define MIN_DISPLAY_LAG_TIME 1000;
-// #define MAX_DISPLAY_LAG_TIME 5000;
-#define MIN_DISPLAY_LAG_TIME 100
-#define MAX_DISPLAY_LAG_TIME 500
+ #define MIN_DISPLAY_LAG_TIME 5000
+ #define MAX_DISPLAY_LAG_TIME 6000
+//#define MIN_DISPLAY_LAG_TIME 100
+//#define MAX_DISPLAY_LAG_TIME 500
 
 
 //Time in seconds before the keypad times out
@@ -25,8 +25,8 @@
 
 
 // THE TIME BETWEEN ITERATIONS OF THE WHOLE FLOW CHART
-#define MIN_PAUSE_TIME_BETWEEN_RUNS 10000
-#define MAX_PAUSE_TIME_BETWEEN_RUNS 20000
+#define MIN_PAUSE_TIME_BETWEEN_RUNS 120000
+#define MAX_PAUSE_TIME_BETWEEN_RUNS 150000
 
 
 // THE NUMBER OF CONNECTED LEDS THAT CAN BE TURNED ON TO FLASH
@@ -119,7 +119,7 @@
 //cage riser A Up
 #define SERVO_9_POSITION_B 16
 
-#define SERVO_9_SPEED 35
+#define SERVO_9_SPEED 20
 
 //Cage Top
 
@@ -155,14 +155,14 @@
 //cage riser B Up
 #define SERVO_13_POSITION_B 972
 
-#define SERVO_13_SPEED 35
+#define SERVO_13_SPEED 20
 
 //clock
 
 //clock clockwise
 #define SERVO_14_POSITION_A 1
 //clock counter clockwise
-#define SERVO_14_POSITION_B 1000
+#define SERVO_14_POSITION_B 1100
 
 #define SERVO_14_SPEED 10
 
